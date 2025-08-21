@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.UlcerPrevention" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/medical_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/medical_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/medical_purple</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/medical_blue</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+</resources>

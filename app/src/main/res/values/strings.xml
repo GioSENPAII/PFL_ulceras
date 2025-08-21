@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prevención de Úlceras</string>
+    <string name="dashboard_title">Dashboard Principal</string>
+    <string name="prediction_title">Predicción IA</string>
+    <string name="history_title">Historial</string>
+
+    <!-- Dashboard -->
+    <string name="pressure_map_title">Mapa de Calor Corporal</string>
+    <string name="active_alerts_title">Alertas Activas</string>
+    <string name="system_status_active">Sistema Activo</string>
+    <string name="cooling_active">Enfriamiento Activo</string>
+
+    <!-- Predictions -->
+    <string name="ai_prediction_title">Predicción de Presión por IA</string>
+    <string name="future_risk_zones">Zonas de Riesgo Futuro</string>
+    <string name="ai_insight">Recomendación IA</string>
+    <string name="high_precision">Alta precisión</string>
+    <string name="cooling_scheduled">Enfriamiento Programado</string>
+
+    <!-- History -->
+    <string name="pressure_history_title">Historial de Presión</string>
+    <string name="recorded_events">Eventos Registrados</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="trend_last_6h">Tendencia Últimas 6h</string>
+
+    <!-- Pressure Levels -->
+    <string name="pressure_low">Bajo</string>
+    <string name="pressure_moderate">Moderado</string>
+    <string name="pressure_high">Alto</string>
+    <string name="pressure_critical">Crítico</string>
+
+    <!-- Time Units -->
+    <string name="hours_abbreviation">h</string>
+    <string name="minutes_abbreviation">m</string>
+    <string name="seconds_abbreviation">s</string>
+
+    <!-- Body Zones -->
+    <string name="sacral_zone">Zona Sacral</string>
+    <string name="left_heel">Talón Izquierdo</string>
+    <string name="right_heel">Talón Derecho</string>
+    <string name="left_shoulder">Hombro Izquierdo</string>
+    <string name="right_shoulder">Hombro Derecho</string>
+    <string name="left_elbow">Codo Izquierdo</string>
+    <string name="right_elbow">Codo Derecho</string>
+    <string name="left_hip">Cadera Izquierda</string>
+    <string name="right_hip">Cadera Derecha</string>
+
+    <!-- Filter Options -->
+    <string name="filter_all_zones">Todas las zonas</string>
+    <string name="filter_1h">1 hora</string>
+    <string name="filter_6h">6 horas</string>
+    <string name="filter_24h">24 horas</string>
+    <string name="filter_all_time">Todo el tiempo</string>
+
+    <!-- Statistics -->
+    <string name="total_events">Eventos Totales</string>
+    <string name="critical_events">Eventos Críticos</string>
+    <string name="cooling_activations">Activaciones de Enfriamiento</string>
+    <string name="average_pressure">Presión Promedio</string>
+    <string name="most_affected_zone">Zona Más Afectada</string>
+
+    <!-- AI Messages -->
+    <string name="ai_recommendation_sample">Basado en el patrón de presión actual, se recomienda cambio de posición en los próximos 20 minutos para prevenir úlceras en zona sacral.</string>
+    <string name="confidence_level">Confianza: %1$d%%</string>
+    <string name="probability_percentage">%1$d%%</string>
+    <string name="estimated_time_minutes">%1$d min</string>
+
+    <!-- Trends -->
+    <string name="trend_increasing">↗️ Aumentando</string>
+    <string name="trend_decreasing">↘️ Disminuyendo</string>
+    <string name="trend_stable">→ Estable</string>
+    <string name="insufficient_data">→ Insuficientes datos</string>
+</resources>
