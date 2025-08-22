@@ -43,7 +43,7 @@ fun SplashScreen(onNavigateToSetup: () -> Unit) {
         ) {
             // Logo placeholder - reemplaza con tu logo real
             Image(
-                painter = painterResource(id = R.drawable.ic_medical_monitoring), // Temporal
+                painter = painterResource(id = R.drawable.app_logo), // Temporal
                 contentDescription = stringResource(R.string.app_logo_description),
                 modifier = Modifier.size(120.dp)
             )

@@ -1,3 +1,4 @@
+// Archivo: screens/PredictionScreen.kt
 package com.medicalheatmap.ulcerprevention.screens
 
 import androidx.compose.animation.core.*
@@ -347,7 +348,7 @@ fun PredictionCard(prediction: PredictionPoint) {
                         )
                         Spacer(modifier = Modifier.width(4.dp))
                         Text(
-                            text = "Programado",
+                            text = "Scheduled",
                             fontSize = 10.sp,
                             color = Color(0xFF3B82F6),
                             fontWeight = FontWeight.Medium
@@ -364,7 +365,7 @@ fun PredictionCard(prediction: PredictionPoint) {
             ) {
                 Column {
                     Text(
-                        text = "Probabilidad",
+                        text = "Probability",
                         fontSize = 10.sp,
                         color = Color(0xFF64748B)
                     )
@@ -380,7 +381,7 @@ fun PredictionCard(prediction: PredictionPoint) {
                     horizontalAlignment = Alignment.End
                 ) {
                     Text(
-                        text = "Tiempo estimado",
+                        text = "Estimated time",
                         fontSize = 10.sp,
                         color = Color(0xFF64748B)
                     )
@@ -430,7 +431,7 @@ fun AIInsightCard() {
                 Spacer(modifier = Modifier.width(8.dp))
 
                 Text(
-                    text = "Recomendación IA",
+                    text = "AI Recommendation",
                     fontSize = 12.sp,
                     fontWeight = FontWeight.SemiBold,
                     color = Color(0xFF1E293B)
@@ -440,7 +441,7 @@ fun AIInsightCard() {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Basado en el patrón de presión actual, se recomienda cambio de posición en los próximos 20 minutos para prevenir úlceras en zona sacral.",
+                text = "Based on current pressure patterns, position change recommended in next 20 minutes to prevent sacral zone ulcers.",
                 fontSize = 11.sp,
                 color = Color(0xFF4B5563),
                 lineHeight = 14.sp
@@ -464,7 +465,7 @@ fun AIInsightCard() {
                     shape = RoundedCornerShape(12.dp)
                 ) {
                     Text(
-                        text = "Alta precisión",
+                        text = "High precision",
                         fontSize = 9.sp,
                         color = Color(0xFF059669),
                         fontWeight = FontWeight.Medium,

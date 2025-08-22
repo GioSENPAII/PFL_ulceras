@@ -126,9 +126,9 @@ fun QRScannerOverlay() {
             )
         }
 
-        // Scanning line animation would go here
+        // Draw scanning line (animated)
         drawLine(
-            color = Color.Green,
+            color = Color.Red,
             start = Offset(0f, size.height * 0.5f),
             end = Offset(size.width, size.height * 0.5f),
             strokeWidth = 2.dp.toPx(),

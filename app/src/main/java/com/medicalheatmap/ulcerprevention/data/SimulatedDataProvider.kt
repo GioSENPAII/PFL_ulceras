@@ -8,15 +8,15 @@ import kotlin.random.Random
 class SimulatedDataProvider {
 
     private val bodyZones = listOf(
-        PressurePoint("sacral", "Zona Sacral", 0.5f, 0.65f, 0.7f, 8100000L, true),
-        PressurePoint("heel_left", "Talón Izquierdo", 0.3f, 0.9f, 0.4f, 3600000L, false),
-        PressurePoint("heel_right", "Talón Derecho", 0.7f, 0.9f, 0.8f, 9900000L, true),
-        PressurePoint("shoulder_left", "Hombro Izquierdo", 0.2f, 0.25f, 0.3f, 1800000L, false),
-        PressurePoint("shoulder_right", "Hombro Derecho", 0.8f, 0.25f, 0.5f, 5400000L, false),
-        PressurePoint("elbow_left", "Codo Izquierdo", 0.15f, 0.4f, 0.2f, 900000L, false),
-        PressurePoint("elbow_right", "Codo Derecho", 0.85f, 0.4f, 0.6f, 7200000L, true),
-        PressurePoint("hip_left", "Cadera Izquierda", 0.35f, 0.55f, 0.4f, 2700000L, false),
-        PressurePoint("hip_right", "Cadera Derecha", 0.65f, 0.55f, 0.3f, 1800000L, false)
+        PressurePoint("sacral", "Sacral Zone", 0.5f, 0.65f, 0.7f, 8100000L, true),
+        PressurePoint("heel_left", "Left Heel", 0.3f, 0.9f, 0.4f, 3600000L, false),
+        PressurePoint("heel_right", "Right Heel", 0.7f, 0.9f, 0.8f, 9900000L, true),
+        PressurePoint("shoulder_left", "Left Shoulder", 0.2f, 0.25f, 0.3f, 1800000L, false),
+        PressurePoint("shoulder_right", "Right Shoulder", 0.8f, 0.25f, 0.5f, 5400000L, false),
+        PressurePoint("elbow_left", "Left Elbow", 0.15f, 0.4f, 0.2f, 900000L, false),
+        PressurePoint("elbow_right", "Right Elbow", 0.85f, 0.4f, 0.6f, 7200000L, true),
+        PressurePoint("hip_left", "Left Hip", 0.35f, 0.55f, 0.4f, 2700000L, false),
+        PressurePoint("hip_right", "Right Hip", 0.65f, 0.55f, 0.3f, 1800000L, false)
     )
 
     fun getPressureDataStream(): Flow<List<PressurePoint>> = flow {
@@ -42,9 +42,9 @@ class SimulatedDataProvider {
     fun getPredictionsStream(): Flow<List<PredictionPoint>> = flow {
         while (true) {
             val predictions = listOf(
-                PredictionPoint("ankle_left", "Tobillo Izquierdo", 0.75f, 25, 0.25f, 0.85f),
-                PredictionPoint("knee_right", "Rodilla Derecha", 0.68f, 35, 0.75f, 0.7f),
-                PredictionPoint("wrist_left", "Muñeca Izquierda", 0.55f, 45, 0.1f, 0.35f)
+                PredictionPoint("ankle_left", "Left Ankle", 0.75f, 25, 0.25f, 0.85f),
+                PredictionPoint("knee_right", "Right Knee", 0.68f, 35, 0.75f, 0.7f),
+                PredictionPoint("wrist_left", "Left Wrist", 0.55f, 45, 0.1f, 0.35f)
             )
 
             val updatedPredictions = predictions.map { prediction ->
