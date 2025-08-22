@@ -1,15 +1,20 @@
+<!-- Archivo: app/src/main/res/values/themes.xml -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.UlcerPrevention" parent="Theme.Material3.DayNight">
-        <item name="colorPrimary">@color/medical_blue</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/medical_green</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <item name="colorTertiary">@color/medical_purple</item>
-        <item name="colorOnTertiary">@color/white</item>
+    <style name="Theme.UlcerPrevention" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Colores principales -->
+        <item name="android:colorPrimary">@color/medical_blue</item>
+        <item name="android:colorPrimaryDark">@color/medical_blue</item>
+        <item name="android:colorAccent">@color/medical_green</item>
 
+        <!-- Status bar y navigation bar -->
         <item name="android:statusBarColor">@color/medical_blue</item>
         <item name="android:navigationBarColor">@color/background_light</item>
 
+        <!-- Background -->
         <item name="android:windowBackground">@color/background_light</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
 </resources>

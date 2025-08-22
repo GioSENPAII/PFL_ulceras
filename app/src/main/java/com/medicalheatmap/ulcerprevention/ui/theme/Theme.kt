@@ -1,3 +1,6 @@
+// Archivo: app/src/main/java/com/medicalheatmap/ulcerprevention/ui/theme/Theme.kt
+package com.medicalheatmap.ulcerprevention.ui.theme
+
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -46,7 +49,7 @@ private val LightColorScheme = lightColorScheme(
 fun UlcerPreventionTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false, // Cambiado a false para evitar conflictos
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
@@ -54,10 +57,10 @@ fun UlcerPreventionTheme(
             val context = LocalContext.current
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
-
         darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
+
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {

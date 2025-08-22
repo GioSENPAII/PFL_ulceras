@@ -1,7 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Ulcerprevention" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.UlcerPrevention" parent="android:Theme.Material.NoActionBar">
+        <!-- Colores principales para modo oscuro -->
+        <item name="android:colorPrimary">@color/medical_blue</item>
+        <item name="android:colorPrimaryDark">@color/medical_blue</item>
+        <item name="android:colorAccent">@color/medical_green</item>
+
+        <!-- Status bar y navigation bar -->
+        <item name="android:statusBarColor">@color/medical_blue</item>
+        <item name="android:navigationBarColor">#FF1E293B</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">#FF0F172A</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#FFE2E8F0</item>
+        <item name="android:textColorSecondary">#FF94A3B8</item>
     </style>
 </resources>
