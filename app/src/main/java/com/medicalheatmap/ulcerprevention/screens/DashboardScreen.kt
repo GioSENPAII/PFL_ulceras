@@ -1,3 +1,4 @@
+// Archivo: screens/DashboardScreen.kt
 package com.medicalheatmap.ulcerprevention.screens
 
 import androidx.compose.animation.core.*

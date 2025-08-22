@@ -1,34 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Prevención de Úlceras</string>
-    <string name="dashboard_title">Dashboard Principal</string>
-    <string name="prediction_title">Predicción IA</string>
-    <string name="history_title">Historial</string>
+    <string name="app_name">PressureGuard</string>
+
+    <!-- Splash Screen -->
+    <string name="app_logo_description">PressureGuard Logo</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_title">Device Setup</string>
+    <string name="setup_subtitle">Connect your smart mattress cover</string>
+    <string name="scan_qr_option">Scan QR Code</string>
+    <string name="manual_entry_option">Manual Entry</string>
+    <string name="serial_number_hint">Enter Serial Number</string>
+    <string name="serial_number_label">Serial Number</string>
+    <string name="connect_button">Connect</string>
+    <string name="qr_scanner_title">QR Code Scanner</string>
+    <string name="camera_permission_required">Camera permission required</string>
+
+    <!-- Connection Screen -->
+    <string name="connecting_title">Connecting to Device</string>
+    <string name="retrieving_data">Retrieving mattress cover data...</string>
+    <string name="connection_successful">Connection Successful!</string>
+
+    <!-- Navigation -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="prediction_title">AI Predictions</string>
+    <string name="history_title">History</string>
 
     <!-- Dashboard -->
-    <string name="pressure_map_title">Mapa de Calor Corporal</string>
-    <string name="active_alerts_title">Alertas Activas</string>
-    <string name="system_status_active">Sistema Activo</string>
-    <string name="cooling_active">Enfriamiento Activo</string>
+    <string name="pressure_map_title">Body Heat Map</string>
+    <string name="active_alerts_title">Active Alerts</string>
+    <string name="system_status_active">System Active</string>
+    <string name="cooling_active">Cooling Active</string>
+    <string name="real_time_monitoring">Real-time pressure point monitoring</string>
 
     <!-- Predictions -->
-    <string name="ai_prediction_title">Predicción de Presión por IA</string>
-    <string name="future_risk_zones">Zonas de Riesgo Futuro</string>
-    <string name="ai_insight">Recomendación IA</string>
-    <string name="high_precision">Alta precisión</string>
-    <string name="cooling_scheduled">Enfriamiento Programado</string>
+    <string name="future_risk_zones">Future Risk Zones</string>
+    <string name="ai_insight">AI Recommendation</string>
+    <string name="high_precision">High precision</string>
+    <string name="cooling_scheduled">Cooling Scheduled</string>
+    <string name="predictive_analysis">Predictive Analysis</string>
+    <string name="ai_active">AI Active</string>
 
     <!-- History -->
-    <string name="pressure_history_title">Historial de Presión</string>
-    <string name="recorded_events">Eventos Registrados</string>
-    <string name="statistics">Estadísticas</string>
-    <string name="trend_last_6h">Tendencia Últimas 6h</string>
+    <string name="pressure_history_title">Pressure History</string>
+    <string name="recorded_events">Recorded Events</string>
+    <string name="statistics">Statistics</string>
+    <string name="trend_last_6h">Last 6h Trend</string>
+    <string name="historical_data_analysis">Historical data and trends analysis</string>
 
     <!-- Pressure Levels -->
-    <string name="pressure_low">Bajo</string>
-    <string name="pressure_moderate">Moderado</string>
-    <string name="pressure_high">Alto</string>
-    <string name="pressure_critical">Crítico</string>
+    <string name="pressure_low">Low</string>
+    <string name="pressure_moderate">Moderate</string>
+    <string name="pressure_high">High</string>
+    <string name="pressure_critical">Critical</string>
 
     <!-- Time Units -->
     <string name="hours_abbreviation">h</string>
@@ -36,39 +60,45 @@
     <string name="seconds_abbreviation">s</string>
 
     <!-- Body Zones -->
-    <string name="sacral_zone">Zona Sacral</string>
-    <string name="left_heel">Talón Izquierdo</string>
-    <string name="right_heel">Talón Derecho</string>
-    <string name="left_shoulder">Hombro Izquierdo</string>
-    <string name="right_shoulder">Hombro Derecho</string>
-    <string name="left_elbow">Codo Izquierdo</string>
-    <string name="right_elbow">Codo Derecho</string>
-    <string name="left_hip">Cadera Izquierda</string>
-    <string name="right_hip">Cadera Derecha</string>
+    <string name="sacral_zone">Sacral Zone</string>
+    <string name="left_heel">Left Heel</string>
+    <string name="right_heel">Right Heel</string>
+    <string name="left_shoulder">Left Shoulder</string>
+    <string name="right_shoulder">Right Shoulder</string>
+    <string name="left_elbow">Left Elbow</string>
+    <string name="right_elbow">Right Elbow</string>
+    <string name="left_hip">Left Hip</string>
+    <string name="right_hip">Right Hip</string>
 
     <!-- Filter Options -->
-    <string name="filter_all_zones">Todas las zonas</string>
-    <string name="filter_1h">1 hora</string>
-    <string name="filter_6h">6 horas</string>
-    <string name="filter_24h">24 horas</string>
-    <string name="filter_all_time">Todo el tiempo</string>
+    <string name="filter_all_zones">All zones</string>
+    <string name="filter_1h">1 hour</string>
+    <string name="filter_6h">6 hours</string>
+    <string name="filter_24h">24 hours</string>
+    <string name="filter_all_time">All time</string>
 
     <!-- Statistics -->
-    <string name="total_events">Eventos Totales</string>
-    <string name="critical_events">Eventos Críticos</string>
-    <string name="cooling_activations">Activaciones de Enfriamiento</string>
-    <string name="average_pressure">Presión Promedio</string>
-    <string name="most_affected_zone">Zona Más Afectada</string>
+    <string name="total_events">Total Events</string>
+    <string name="critical_events">Critical Events</string>
+    <string name="cooling_activations">Cooling Activations</string>
+    <string name="average_pressure">Average Pressure</string>
+    <string name="most_affected_zone">Most Affected Zone</string>
 
     <!-- AI Messages -->
-    <string name="ai_recommendation_sample">Basado en el patrón de presión actual, se recomienda cambio de posición en los próximos 20 minutos para prevenir úlceras en zona sacral.</string>
-    <string name="confidence_level">Confianza: %1$d%%</string>
+    <string name="ai_recommendation_sample">Based on current pressure patterns, position change recommended in next 20 minutes to prevent sacral zone ulcers.</string>
+    <string name="confidence_level">Confidence: %1$d%%</string>
     <string name="probability_percentage">%1$d%%</string>
     <string name="estimated_time_minutes">%1$d min</string>
 
     <!-- Trends -->
-    <string name="trend_increasing">↗️ Aumentando</string>
-    <string name="trend_decreasing">↘️ Disminuyendo</string>
-    <string name="trend_stable">→ Estable</string>
-    <string name="insufficient_data">→ Insuficientes datos</string>
+    <string name="trend_increasing">↗️ Increasing</string>
+    <string name="trend_decreasing">↘️ Decreasing</string>
+    <string name="trend_stable">→ Stable</string>
+    <string name="insufficient_data">→ Insufficient data</string>
+
+    <!-- Common -->
+    <string name="time_label">Time: %1$s</string>
+    <string name="probability_label">Probability</string>
+    <string name="estimated_time_label">Estimated time</string>
+    <string name="scheduled">Scheduled</string>
 </resources>
